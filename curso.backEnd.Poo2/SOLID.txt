@@ -1,0 +1,23 @@
+﻿O que é SOLID?
+é um termo/acrônimo de 5 principior da orientação a objetos
+
+
+1º (S) -> Single Responsibility Principle - Principio da responsabilidade unica
+quando vc estiver criando uma classe ela deve ter apenas umas responsabilidade.
+
+2º (O) -> Open-Closed Principle = Principio do Aberto e Fechado.
+se existe algo (ex: um metodo) ja criado ja estar sendo utilizado por outras pessaos 
+vc nao pode alterar, vc pode melhorar (Open-implementar + | Closed-implementar - ).
+
+3ª (L) -> Liskov Substitution Principal - Principio de substituiçao de Liskov.
+uma Classe derivada deve ser substituida pela calsse Base
+Ex: onde eu estiver precisando de uma Conta Bancaria eu posso usar as classes que 
+derivam dala CC ou CP
+
+
+4ª (I) -> Interface Segregation Principle - Principio de Segragação da Interface
+uma classe nao pode ser forçada a usar interfaces e metodos que nao vai usar
+
+5º (D) -> Dependence Inversion Principal - Principal da Inversaõ de Dependencia.
+muito usado no SpringBoot 
+ 
